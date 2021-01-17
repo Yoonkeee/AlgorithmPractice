@@ -80,7 +80,19 @@ counts = collections.Counter(words).most_common(1)
 
 # **20. 01. 18 MON**
 
-#### Subtitle
+### [Tim Sort](https://d2.naver.com/helloworld/0315536)
+Python을 포함한 많은 언어에서 Sorting Algorithm으로 사용하는 정렬 방법.  
+(Binary)Insertion Sort와 Merge Sort를 결합  
+Time Complexity - Best : O(n), Avg : O(nlogn), Worst : O(nlogn)  
+Space Complexity - O(n)  
+원소를 2개씩 자른 다음  
+- i번째 덩어리의 원소가 증가  
+  - i+1번째의 덩어리 원소가 증가시 앞의 덩어리에 Binary Insertion sort
+  - So on ...
+- i+n번째 덩어리의 원소가 감소
+  - 감소하는 방향의 새로운 덩어리로 i+n+1, ... 내림차순 정렬
+- 생성된 덩어리들을 Merge sort
+  - Galloping - 한 배열에서만 계속 병합이 이뤄질 경우 참조 index = 2^k로 증가  
 
 
 
