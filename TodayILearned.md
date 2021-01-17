@@ -5,7 +5,7 @@ A is B 는 객체의 id(주소)값을 비교하는 것 *(object 비교)*
 None은 값 자체가 없으므로 == 으로 비교할 수 없고, is 로 비교해야 한다  
 A = list(리스트)를 하게 되면 리스트를 별도의 객체로 복사하여 다른 ID를 갖게 됨
 
-##### Example 1
+#### Example 1
 
 ``` python
 class Negator(object):
@@ -15,7 +15,7 @@ thing = Negator()
 print thing == None  #True
 print thing is None  #False
 ```
-##### Example 2
+#### Example 2
 
 ```python
 lst = [1,2,3]
@@ -26,25 +26,25 @@ lst is lst[:]  # This is False since they're actually different objects
 
 # **20. 01. 15 FRI**
 
-##### **문자열**
+#### **문자열**
 
 문자열을 다룰 경우 리스트로 매핑하는 과정보다 슬라이싱으로 다루는 것이 속도면에서 훨씬 큰 이점이 있다.  
 ex) [Valid Palindrome](https://nbviewer.jupyter.org/github/Yoonkeee/AlgorithmPractice/blob/master/Python%20Algorithm%20Interview/src/Ch.06%20-%2001.%20Valid%20Palindrome.ipynb)
 
-##### **Deque (Double-Ended Queue)**
+#### **Deque (Double-Ended Queue)**
 * deq = collections.deque()   /  from collections import *   ,  deq = deque()  
 deq.appendleft(something)  
 deq.popleft()  ,  deq.pop()  
 queue.pop(0) = deque.popleft() 이지만  
 속도는 O(n) << O(1) 이다.  
 
-##### **Reverse**
+#### **Reverse**
 - Reverse List : (list).reverse()  
 - Reverse String : foo = (str)[::-1]
 
 # **20. 01. 16 SAT**
 
-##### **2개 이상의 조건**으로 정렬하기
+#### **2개 이상의 조건**으로 정렬하기
 
 ```python
 keys: tuple = (key1, key2, ... )
@@ -55,7 +55,7 @@ keys: tuple = (key1, key2, ... )
 foo = sorted((list), key=keys)
 ```
 
-##### Jupyter Notebook 환경에서 괄호, 따옴표 자동완성 해제 코드
+#### Jupyter Notebook 환경에서 괄호, 따옴표 자동완성 해제 코드
 
 ```python
 from notebook.services.config import ConfigManager
@@ -63,9 +63,24 @@ c = ConfigManager()
 c.update('notebook', {"CodeCell": {"cm_config": {"autoCloseBrackets": False}}})
 ```
 
+# **20. 01. 17 SUN**
+
+#### String Cleansing & Max Count
+```python
+strs = "Bob hit a ball, the hit BALL flew far after it was hit."
+words = re.sub(r'[^\w]', ' ', strs).split()
+counts = collections.Counter(words).most_common(1)
+```
+```python
+(str).join((str) or (list) or (tuple))
+''.join(['1','2','3','4','5']) == '12345'
+'+'.join(['1','2','3','4','5']) == '1+2+3+4+5'
+```
+
+
 # **20. 01. 18 MON**
 
-##### Subtitle
+#### Subtitle
 
 
 
