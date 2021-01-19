@@ -97,16 +97,29 @@ Space Complexity - O(n)
 
 # **20. 01. 19 TUE**
 
-### Title
+### 문자열 슬라이싱 
+s == s[::-1]  => 문자열 뒤집기, 속도가 매우 빠름  
+```python
+(str)[::-1 ] == reverse(s)
+if len(s) < 2 or s == s[::-1]:
+    return s
+```
 
+### Sliding Window
+전진하는 포인터
+```python
+for i in range(0, len(s)-1):
+    result = max(resunt,
+                 expand(s, i, i+1),
+                 expand(s, i, i+2),
+                 key=len)
+  return result
+```
+### 
 
+# **20. 01. 00 DAY**
 
-
-
-
-
-
-
+### Subtitle
 
 
 
