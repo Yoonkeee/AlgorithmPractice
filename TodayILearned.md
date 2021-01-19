@@ -95,7 +95,9 @@ Space Complexity - O(n)
   - Galloping - 한 배열에서만 계속 병합이 이뤄질 경우 참조 index = 2^k로 증가  
 
 
+# **20. 01. 19 TUE**
 
+### Title
 
 
 
