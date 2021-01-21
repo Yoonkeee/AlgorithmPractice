@@ -23,7 +23,7 @@ lst == lst[:]  # This is True since the lists are "equivalent"
 lst is lst[:]  # This is False since they're actually different objects
 ```
 [출처 - Stack Overflow](https://stackoverflow.com/questions/14247373/python-none-comparison-should-i-use-is-or)
-
+---
 # **20. 01. 15 FRI**
 
 #### **문자열**
@@ -41,7 +41,7 @@ queue.pop(0) = deque.popleft() 이지만
 #### **Reverse**
 - Reverse List : (list).reverse()  
 - Reverse String : foo = (str)[::-1]
-
+---
 # **20. 01. 16 SAT**
 
 #### **2개 이상의 조건**으로 정렬하기
@@ -62,7 +62,7 @@ from notebook.services.config import ConfigManager
 c = ConfigManager()
 c.update('notebook', {"CodeCell": {"cm_config": {"autoCloseBrackets": False}}})
 ```
-
+---
 # **20. 01. 17 SUN**
 
 #### String Cleansing & Max Count
@@ -77,7 +77,7 @@ counts = collections.Counter(words).most_common(1)
 '+'.join(['1','2','3','4','5']) == '1+2+3+4+5'
 ```
 
-
+---
 # **20. 01. 18 MON**
 
 ### [Tim Sort](https://d2.naver.com/helloworld/0315536)
@@ -94,7 +94,7 @@ Space Complexity - O(n)
 - 생성된 덩어리들을 Merge sort
   - Galloping - 한 배열에서만 계속 병합이 이뤄질 경우 참조 index = 2^k로 증가  
 
-
+---
 # **20. 01. 19 TUE**
 
 ### 문자열 슬라이싱 
@@ -105,8 +105,7 @@ if len(s) < 2 or s == s[::-1]:
     return s
 ```
 
-### Sliding Window
-전진하는 포인터
+### **Sliding Window** with Two Pointer
 ```python
 for i in range(0, len(s)-1):
     result = max(resunt,
@@ -115,17 +114,57 @@ for i in range(0, len(s)-1):
                  key=len)
   return result
 ```
-### 
 
-# **20. 01. 00 DAY**
+---
+# **20. 01. 20 WED**
+
+### Time Complexity of **in**
+```python
+var in some_list  # O(n)
+var in some:dict
+```
+### 함수 호출시 Callable(lambda)을 인자로 넣을 수 있음
+```python
+this_is_lambda = lambda : print('lambda')
+some_func(this_is_lambda)
+```
+### Typing
+```python
+list_or_something:Iterable[int] = [1,2,3]
+some_list:list_or_something = [5,5,5]
+connection_options = dict[str, str]
+ADDRESS = tuple[str, int]
+server = tuple[ADDRESS, connection_options]
+```
+
+---
+# **20. 01. 21 THU**
 
 ### Subtitle
 
 
 
+# **20. 01. 22 FRI**
+
+### Subtitle
 
 
 
+# **20. 01. 23 SAT**
+
+### Subtitle
+
+
+
+# **20. 01. 24 SUN**
+
+### Subtitle
+
+
+
+# **20. 01. 00 DAY**
+
+### Subtitle
 
 
 
