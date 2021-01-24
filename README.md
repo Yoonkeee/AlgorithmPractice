@@ -1,3 +1,2 @@
-# AlgorithmPractice
-¾Ë°í¸®Áò ¹®Á¦ ¿¬½À  
-[ÆÄÀÌ½ã ¾Ë°í¸®Áò ÀÎÅÍºä](https://github.com/onlybooks/algorithm-interview)
+# AlgorithmPractice  
+[íŒŒì´ì¬ ì•Œê³ ë¦¬ì¦˜ ì¸í„°ë·°](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview) 
