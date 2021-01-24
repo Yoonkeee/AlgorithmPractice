@@ -1,3 +1,3 @@
 # AlgorithmPractice
-¾Ë°í¸®Áò ¹®Á¦ ¿¬½À  
-[ÆÄÀÌ½ã ¾Ë°í¸®Áò ÀÎÅÍºä](https://github.com/onlybooks/algorithm-interview)
+ì•Œê³ ë¦¬ì¦˜ ë¬¸ì œ ì—°ìŠµ  
+[íŒŒì´ì¬ ì•Œê³ ë¦¬ì¦˜ ì¸í„°ë·°](https://github.com/Yoonkeee/AlgorithmPractice/PythonAlgorithmInterview/) [ì±…](https://github.com/onlybooks/algorithm-interview)
