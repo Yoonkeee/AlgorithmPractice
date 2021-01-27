@@ -91,7 +91,7 @@ Space Complexity - O(n)
   - So on ...
 - i+n번째 덩어리의 원소가 감소
   - 감소하는 방향의 새로운 덩어리로 i+n+1, ... 내림차순 정렬
-- 생성된 덩어리들을 Merge sort
+- 생성된 덩어리들을 Merge sort  
   - Galloping - 한 배열에서만 계속 병합이 이뤄질 경우 참조 index = 2^k로 증가  
 
 ---
@@ -121,7 +121,7 @@ for i in range(0, len(s)-1):
 ### Time Complexity of **in**
 ```python
 var in some_list  # O(n)
-var in some:dict
+var in some_dict  # O(1) , Search KEY
 ```
 ### 함수 호출시 Callable(lambda)을 인자로 넣을 수 있음
 ```python
@@ -138,34 +138,111 @@ server = tuple[ADDRESS, connection_options]
 ```
 
 ---
-# **20. 01. 21 THU**
-
-### Subtitle
-
-
 
 # **20. 01. 22 FRI**
 
+### Two Pointer Moving (=Sliding Window)  
+[Q.07 두 수의 합](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Ch.07%20-%20Q.07%20%EB%91%90%20%EC%88%98%EC%9D%98%20%ED%95%A9.ipynb)  
+[Q.08 빗물 트래핑](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Ch.07%20-%20Q.08%20%EB%B9%97%EB%AC%BC%20%ED%8A%B8%EB%9E%98%ED%95%91.ipynb)  
+[Q.09 세 수의 합](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Ch.07%20-%20Q.09%20%EC%84%B8%20%EC%88%98%EC%9D%98%20%ED%95%A9.ipynb)  
+
+### List Slicing
+```python
+l = [1,2,3,4,5,6,7]
+[n for i, n in enumerate(l) if i%2 == 0] == l[::2] == [2,4,6]  # 짝수번째 값들만 얻은 것
+```
+
+
+---
+
+# **20. 01. 25 MON**
+
+### Linked List in Python
+```python
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+head = ListNode(1)
+head.next = ListNode(2)
+print(head.next.val == 2)
+head.next.next = ListNode(3)
+print(head.next.next.val == 3)
+```
+
+Linked List는 List로 변형 후 다루는 것이 편리  
+deque는 양방향 모두 O(1)에 pop 가능!!  
+deque.popleft() faster than que.pop(0)  
+
+---
+
+# **20. 01. 26 TUE**
+
+### [연산의 실행 순서](https://wikidocs.net/20708)
+
+순위 | 연산자 | 설명
+---|---|---
+1	|(), {}, []	|Tuple, Set, List, Dictionary
+2	|collection[index] <br> collection[index1, index2] <br> function(aguments ...) <br> object.attribute	|컬렉션의 첨자 <br> 슬라이싱 <br> 함수의 인수 <br> 객체의 속성 등
+3	|**	|거듭제곱
+4 |	+ , - , ~	| 단항 연산자(부호, bitwise not)
+5	| * / // %	| 곱하기, 나누기, 정수 몫, 나머지
+6	| + -	| 더하기, 빼기
+7	| << >>	| 시프트 연산
+8	| &	| bitwise and
+9	| ^	| bitwise xor
+10 | | 		
+11	| in, not in <br> is, is not <br> <, <=, >, >=, ==, !=	| 멤버 연산자 <br>아이디 연산자 <br> 관계 연산자
+12	| not	| 논리 not
+13	| and	| 논리 and
+14	| or	| 논리 or
+15	| if else	| 삼항 연산자
+16	| lambda	| 람다 표현식
+
+---
+
+# **20. 01. 27 WED**
+
+### Linked List 생성하기
+```python
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+        
+input_data = [[1, 2, 4], [1, 3, 4]]
+heads:List[ListNode] = []
+
+for i in range(len(input_data)):
+    if len(input_data) >= 1:
+        head = ListNode(input_data[i][-1])
+        for n in range(-2, -len(input_data[i])-1, -1):
+            node = head
+            head = ListNode(input_data[i][n])
+            head.next = node
+        heads.append(head)
+    else:
+        heads.append([])
+```
+---
+
+# **20. 01. 28 THU**
+
 ### Subtitle
 
+---
 
-
-# **20. 01. 23 SAT**
-
-### Subtitle
-
-
-
-# **20. 01. 24 SUN**
+# **20. 01. 29 FRI**
 
 ### Subtitle
 
-
+---
 
 # **20. 01. 00 DAY**
 
 ### Subtitle
-
 
 
 
