@@ -142,9 +142,9 @@ server = tuple[ADDRESS, connection_options]
 # **20. 01. 22 FRI**
 
 ### Two Pointer Moving (=Sliding Window)  
-[Q.07 두 수의 합](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Ch.07%20-%20Q.07%20%EB%91%90%20%EC%88%98%EC%9D%98%20%ED%95%A9.ipynb)  
-[Q.08 빗물 트래핑](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Ch.07%20-%20Q.08%20%EB%B9%97%EB%AC%BC%20%ED%8A%B8%EB%9E%98%ED%95%91.ipynb)  
-[Q.09 세 수의 합](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Ch.07%20-%20Q.09%20%EC%84%B8%20%EC%88%98%EC%9D%98%20%ED%95%A9.ipynb)  
+[Q.07 두 수의 합](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.07-Two%20Sum.ipynb)  
+[Q.08 빗물 트래핑](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.08-Trapping%20Rain%20Water.ipynb)  
+[Q.09 세 수의 합](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.09-Three%20Sum.ipynb)  
 
 ### List Slicing
 ```python
@@ -230,9 +230,16 @@ for i in range(len(input_data)):
 
 # **20. 01. 28 THU**
 
-### Subtitle
-
+### Linked List 조작  
+[Q.15-역순 연결 리스트](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.15-Reverse%20Linked%20List.ipynb)    
+현재 node를 따로 저장 후 활용하는 방법
+```python
+next, node.next = node.next, prev
+prev, node = node, next
+```
 ---
+root node를 저장해두고 root.next부터 활용하는 방법도 있음.
+
 
 # **20. 01. 29 FRI**
 
