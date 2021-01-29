@@ -238,12 +238,17 @@ next, node.next = node.next, prev
 prev, node = node, next
 ```
 ---
-root node를 저장해두고 root.next부터 활용하는 방법도 있음.
-
+root node를 저장해두고 root.next부터 활용하는 방법도 있음.  
+연결 리스트의 포인터 스왑을 더 능숙하게 연습할 필요가 있음.
 
 # **20. 01. 29 FRI**
 
-### Subtitle
+### List[int] to int
+```python
+a = [1, 2, 3, 4, 5]
+''.join(str(e) for e in a)
+''.join(map(str, a))
+```
 
 ---
 
