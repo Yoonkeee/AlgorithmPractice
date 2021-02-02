@@ -254,11 +254,22 @@ a = [1, 2, 3, 4, 5]
 
 # **20. 02. 01 MON**
 
-### Subtitle
+### [Q.19-역순 연결 리스트 2](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.19-Reverse%20Linked%20List%20II.ipynb)  
+제대로 못풀었음. m=1일 경우 스왑 불가능
+
+## 자료 구조
+### Queue
+FIFO (선입선출, 입장하기 위한 대기줄)
+### Stack
+LIFO (후입선출, 쌓인 접시)  
+None <- 1 <- 2 <- 3 <- 4 <- 5  
 
 # **20. 02. 02 TUE**
 
-### Subtitle
+### foo in [List]보다 Dict 활용
+
+### [Q.20-유효한 괄호](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.20-Valid%20Parentheses.ipynb) 아주 우아한 풀이코드의 예시
+
 
 # **20. 02. 03 WED**
 
