@@ -5,8 +5,8 @@
   
 ---
 ## 문제 풀이  
-| 번호 | 제목 | 난이도 | 장 | 풀이 코드 |
-| --- | --- | ---- | - | --- |
+| 번호 | 제목 | 난이도 | 장 | 풀이 코드 | Check🌟 |
+| --- | --- | ---- | - | --- | -- |
 | 1 | [유효한 팰린드롬](https://leetcode.com/problems/valid-palindrome/) | ★ | 6장. 문자열 조작 | [](PythonAlgorithmInterview/src/NAME) |
 | 2 | [문자열 뒤집기](https://leetcode.com/problems/reverse-string/) | ★ | 6장. 문자열 조작 | [](PythonAlgorithmInterview/src/NAME) |
 | 3 | [로그 파일 재정렬](https://leetcode.com/problems/reorder-data-in-log-files/) | ★ | 6장. 문자열 조작 | [](PythonAlgorithmInterview/src/NAME) |
@@ -21,13 +21,13 @@
 | 12 | [주식을 사고팔기 가장 좋은 시점](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | ★ | 7장. 배열 | [](PythonAlgorithmInterview/src/NAME) |
 | 13 | [팰린드롬 연결 리스트](https://leetcode.com/problems/palindrome-linked-list/) | ★ | 8장. 연결 리스트 | [](PythonAlgorithmInterview/src/NAME) |
 | 14 | [두 정렬 리스트의 병합](https://leetcode.com/problems/merge-two-sorted-lists/) | ★ | 8장. 연결 리스트 | [](PythonAlgorithmInterview/src/NAME) |
-| 15 | [역순 연결 리스트](https://leetcode.com/problems/reverse-linked-list/) | ★ | 8장. 연결 리스트 | [](PythonAlgorithmInterview/src/NAME) |
+| 15 | [역순 연결 리스트](https://leetcode.com/problems/reverse-linked-list/) | ★ | 8장. 연결 리스트 | [](PythonAlgorithmInterview/src/NAME) | 🌟
 | 16 | [두 수의 덧셈](https://leetcode.com/problems/add-two-numbers/) | ★★ | 8장. 연결 리스트 | [](PythonAlgorithmInterview/src/NAME) |
 | 17 | [페어의 노드 스왑](https://leetcode.com/problems/swap-nodes-in-pairs/) | ★★ | 8장. 연결 리스트 | [](PythonAlgorithmInterview/src/NAME) |
 | 18 | [홀짝 연결 리스트](https://leetcode.com/problems/odd-even-linked-list/) | ★★ | 8장. 연결 리스트 | [](PythonAlgorithmInterview/src/NAME) |
-| 19 | [역순 연결 리스트 II](https://leetcode.com/problems/reverse-linked-list-ii/) | ★★ | 8장. 연결 리스트 | [](PythonAlgorithmInterview/src/NAME) |
+| 19 | [역순 연결 리스트 II](https://leetcode.com/problems/reverse-linked-list-ii/) | ★★ | 8장. 연결 리스트 | [](PythonAlgorithmInterview/src/NAME) | 🌟
 | 20 | [유효한 괄호](https://leetcode.com/problems/valid-parentheses/) | ★ | 9장. 스택, 큐 | [](PythonAlgorithmInterview/src/NAME) |
-| 21 | [중복 문자 제거](https://leetcode.com/problems/remove-duplicate-letters/) | ★★★ | 9장. 스택, 큐 | [](PythonAlgorithmInterview/src/NAME) |
+| 21 | [중복 문자 제거](https://leetcode.com/problems/remove-duplicate-letters/) | ★★★ | 9장. 스택, 큐 | [](PythonAlgorithmInterview/src/NAME) | 🌟
 | 22 | [일일 온도](https://leetcode.com/problems/daily-temperatures/) | ★★ | 9장. 스택, 큐 | [](PythonAlgorithmInterview/src/NAME) |
 | 23 | [큐를 이용한 스택 구현](https://leetcode.com/problems/implement-stack-using-queues/) | ★ | 9장. 스택, 큐 | [](PythonAlgorithmInterview/src/NAME) |
 | 24 | [스택을 이용한 큐 구현](https://leetcode.com/problems/implement-queue-using-stacks/) | ★ | 9장. 스택, 큐 | [](PythonAlgorithmInterview/src/NAME) |
