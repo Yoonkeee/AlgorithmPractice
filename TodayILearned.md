@@ -268,31 +268,12 @@ None <- 1 <- 2 <- 3 <- 4 <- 5
 
 ### foo in [List]보다 Dict 활용
 
-### [Q.20-유효한 괄호](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.20-Valid%20Parentheses.ipynb) 아주 우아한 풀이코드의 예시
+### [Q.20-유효한 괄호](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.20-Valid%20Parentheses.ipynb) - 아주 우아한 풀이코드의 예시
 
+---
 
-# **20. 02. 03 WED**
+#### 20. 02. 03 ~ 20. 02. 07 이사
 
-### Subtitle
-
-# **20. 02. 04 THU**
-
-### Subtitle
-
-# **20. 02. 05 FRI**
+# 20 .02. 00 **
 
 ### Subtitle
-
-# **20. 02. 00 DAY**
-
-### Subtitle
-
-
-
-
-
-
-
-
-
-
