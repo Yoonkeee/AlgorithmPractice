@@ -277,9 +277,9 @@ None <- 1 <- 2 <- 3 <- 4 <- 5
 # 20 .02. 09 TUE**
 
 ### Deque, Priority Queue
+Priority Que = 다익스트라 알고리즘(최단경로), 힙 구조와 관련  
 
-
-# 20 .02. 00 **
+# **20 .02. 00**
 
 ### Subtitle
 
