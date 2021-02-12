@@ -279,7 +279,18 @@ None <- 1 <- 2 <- 3 <- 4 <- 5
 ### Deque, Priority Queue
 Priority Que = 다익스트라 알고리즘(최단경로), 힙 구조와 관련  
 
-# **20 .02. 00**
+
+# **20 .02. 12 FRI**
+
+### PriorityQueue, heapq
+[Q.27-Merge k Sorted Lists](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.27-Merge%20k%20Sorted%20Lists.ipynb) - heapq 사용
+
+# **20 .02. 00 DAY**
+
+### Subtitle
+
+
+# **20 .02. 00 DAY**
 
 ### Subtitle
 
