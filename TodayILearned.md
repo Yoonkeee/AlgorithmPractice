@@ -283,14 +283,19 @@ Priority Que = 다익스트라 알고리즘(최단경로), 힙 구조와 관련
 # **20 .02. 12 FRI**
 
 ### PriorityQueue, heapq
-[Q.27-Merge k Sorted Lists](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.27-Merge%20k%20Sorted%20Lists.ipynb) - heapq 사용
+[Q.27-Merge k Sorted Lists](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.27-Merge%20k%20Sorted%20Lists.ipynb) - heapq 사용(다시보기)
+
+# **20 .02. 13 THU**
+
+### PriorityQueue vs heapq  
+굳이 우선순위 큐를 사용할 필요 없이 heapq 사용하면 됨.
+
+# **20 .02. 14 SUN**
+
+### 해시 테이블
+
+
 
 # **20 .02. 00 DAY**
 
 ### Subtitle
-
-
-# **20 .02. 00 DAY**
-
-### Subtitle
-
