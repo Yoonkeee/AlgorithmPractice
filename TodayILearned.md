@@ -1,4 +1,4 @@
-# **20. 01. 14 THU**
+# **20. 01. 14 ~ 16**
 
 A is B 는 객체의 id(주소)값을 비교하는 것 *(object 비교)*  
 == 는 값을 비교하는 것 *(value equivalent)*  
@@ -22,9 +22,10 @@ lst = [1,2,3]
 lst == lst[:]  # This is True since the lists are "equivalent"
 lst is lst[:]  # This is False since they're actually different objects
 ```
+
 [출처 - Stack Overflow](https://stackoverflow.com/questions/14247373/python-none-comparison-should-i-use-is-or)
+
 ---
-# **20. 01. 15 FRI**
 
 #### **문자열**
 
@@ -32,6 +33,7 @@ lst is lst[:]  # This is False since they're actually different objects
 ex) [Valid Palindrome](https://nbviewer.jupyter.org/github/Yoonkeee/AlgorithmPractice/blob/master/Python%20Algorithm%20Interview/src/Ch.06%20-%2001.%20Valid%20Palindrome.ipynb)
 
 #### **Deque (Double-Ended Queue)**
+
 * deq = collections.deque()   /  from collections import *   ,  deq = deque()  
 deq.appendleft(something)  
 deq.popleft()  ,  deq.pop()  
@@ -41,8 +43,8 @@ queue.pop(0) = deque.popleft() 이지만
 #### **Reverse**
 - Reverse List : (list).reverse()  
 - Reverse String : foo = (str)[::-1]
+
 ---
-# **20. 01. 16 SAT**
 
 #### **2개 이상의 조건**으로 정렬하기
 
@@ -62,8 +64,8 @@ from notebook.services.config import ConfigManager
 c = ConfigManager()
 c.update('notebook', {"CodeCell": {"cm_config": {"autoCloseBrackets": False}}})
 ```
+
 ---
-# **20. 01. 17 SUN**
 
 #### String Cleansing & Max Count
 ```python
@@ -78,7 +80,7 @@ counts = collections.Counter(words).most_common(1)
 ```
 
 ---
-# **20. 01. 18 MON**
+# **20. 01. 18 ~ 24**
 
 ### [Tim Sort](https://d2.naver.com/helloworld/0315536)
 Python을 포함한 많은 언어에서 Sorting Algorithm으로 사용하는 정렬 방법.  
@@ -95,7 +97,6 @@ Space Complexity - O(n)
   - Galloping - 한 배열에서만 계속 병합이 이뤄질 경우 참조 index = 2^k로 증가  
 
 ---
-# **20. 01. 19 TUE**
 
 ### 문자열 슬라이싱 
 s == s[::-1]  => 문자열 뒤집기, 속도가 매우 빠름  
@@ -116,7 +117,6 @@ for i in range(0, len(s)-1):
 ```
 
 ---
-# **20. 01. 20 WED**
 
 ### Time Complexity of **in**
 ```python
@@ -139,8 +139,6 @@ server = tuple[ADDRESS, connection_options]
 
 ---
 
-# **20. 01. 22 FRI**
-
 ### Two Pointer Moving (=Sliding Window)  
 [Q.07 두 수의 합](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.07-Two%20Sum.ipynb)  
 [Q.08 빗물 트래핑](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.08-Trapping%20Rain%20Water.ipynb)  
@@ -152,10 +150,9 @@ l = [1,2,3,4,5,6,7]
 [n for i, n in enumerate(l) if i%2 == 0] == l[::2] == [2,4,6]  # 짝수번째 값들만 얻은 것
 ```
 
-
 ---
 
-# **20. 01. 25 MON**
+# **20. 01. 25 ~ 31**
 
 ### Linked List in Python
 ```python
@@ -176,8 +173,6 @@ deque는 양방향 모두 O(1)에 pop 가능!!
 deque.popleft() faster than que.pop(0)  
 
 ---
-
-# **20. 01. 26 TUE**
 
 ### [연산의 실행 순서](https://wikidocs.net/20708)
 
@@ -201,8 +196,6 @@ deque.popleft() faster than que.pop(0)
 16	| lambda	| 람다 표현식
 
 ---
-
-# **20. 01. 27 WED**
 
 ### Linked List 생성하기
 ```python
@@ -228,8 +221,6 @@ for i in range(len(input_data)):
 ```
 ---
 
-# **20. 01. 28 THU**
-
 ### Linked List 조작  
 [Q.15-역순 연결 리스트](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.15-Reverse%20Linked%20List.ipynb)    
 현재 node를 따로 저장 후 활용하는 방법
@@ -241,8 +232,6 @@ prev, node = node, next
 root node를 저장해두고 root.next부터 활용하는 방법도 있음.  
 연결 리스트의 포인터 스왑을 더 능숙하게 연습할 필요가 있음.
 
-# **20. 01. 29 FRI**
-
 ### List[int] to int
 ```python
 a = [1, 2, 3, 4, 5]
@@ -252,7 +241,7 @@ a = [1, 2, 3, 4, 5]
 
 ---
 
-# **20. 02. 01 MON**
+# **20. 02. 01 ~ 7**
 
 ### [Q.19-역순 연결 리스트 2](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.19-Reverse%20Linked%20List%20II.ipynb)  
 제대로 못풀었음. m=1일 경우 스왑 불가능
@@ -264,8 +253,6 @@ FIFO (선입선출, 입장하기 위한 대기줄)
 LIFO (후입선출, 쌓인 접시)  
 None <- 1 <- 2 <- 3 <- 4 <- 5  
 
-# **20. 02. 02 TUE**
-
 ### foo in [List]보다 Dict 활용
 
 ### [Q.20-유효한 괄호](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.20-Valid%20Parentheses.ipynb) - 아주 우아한 풀이코드의 예시
@@ -274,28 +261,26 @@ None <- 1 <- 2 <- 3 <- 4 <- 5
 
 #### 20. 02. 03 ~ 20. 02. 08 이사
 
-# 20 .02. 09 TUE**
+# **20 .02. 09 ~ 14**
 
 ### Deque, Priority Queue
 Priority Que = 다익스트라 알고리즘(최단경로), 힙 구조와 관련  
 
-
-# **20 .02. 12 FRI**
-
 ### PriorityQueue, heapq
 [Q.27-Merge k Sorted Lists](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.27-Merge%20k%20Sorted%20Lists.ipynb) - heapq 사용(다시보기)
 
-# **20 .02. 13 THU**
-
 ### PriorityQueue vs heapq  
 굳이 우선순위 큐를 사용할 필요 없이 heapq 사용하면 됨.
-
-# **20 .02. 14 SUN**
 
 ### 해시 테이블
 
 
 
-# **20 .02. 00 DAY**
+
+<!--
+
+# **20 .02. 00 ~ 00**
 
 ### Subtitle
+
+-->
