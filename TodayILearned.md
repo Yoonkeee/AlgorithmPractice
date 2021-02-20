@@ -272,7 +272,39 @@ Priority Que = 다익스트라 알고리즘(최단경로), 힙 구조와 관련
 ### PriorityQueue vs heapq  
 굳이 우선순위 큐를 사용할 필요 없이 heapq 사용하면 됨.
 
-### 해시 테이블
+### heapq 사용법  
+``` python
+li = [5,4,3,2,1]  
+heapq.heapify(li)  
+heapq.heappop(li)  
+heapq.heappush(li, 6)
+```
+heap*을 수행할 때마다 heap 구조로 이진트리 재배치함  
+
+### Max Heapq
+``` python
+import heapq
+
+nums = [4, 1, 7, 3, 8, 5]
+heap = []
+
+for num in nums:
+  heapq.heappush(heap, (-num, num))  # (우선 순위, 값)
+
+while heap:
+  print(heapq.heappop(heap)[1])  # index 1
+```
+(-num, num)을 활용하여 음수를 취하면 Max Heapq 구조
+
+# **20 .02. 15 ~ 21**
+
+## 해시
+임의 크기 데이터를 고정 크기 값으로 매핑
+### 장점
+분할 상환 분석에 따른 시간 복잡도가 O(1)  
+데이터 양에 관계 없이 빠른 성능  
+
+
 
 
 
