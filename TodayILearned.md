@@ -317,6 +317,18 @@ while heap:
 (파이썬의 로드 팩터는 0.66, 자바는 0.75)
 
 
+# **20 .02. 22 ~ 28**
+
+### [Q.30 투 포인터 문제](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.30-Longest%20Substring%20Without%20Repeating%20Characters.ipynb)
+다시 풀어보자.
+
+### Sort
+```python
+foo = sorted(bar:list, key = lambda x:(some_func))
+```
+
+### Counter.most_common(k)
+Counter에서 빈도 수가 높은 순서대로 아이템을 추출하는 기능인 most_common()
 
 <!--
 

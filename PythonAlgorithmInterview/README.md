@@ -5,8 +5,8 @@
   
 ---
 ## 문제 풀이  
-| 번호 | 제목 | 난이도 | 장 | 풀이 코드 | Check🌟 |
-| --- | --- | ---- | - | --- | -- |
+| 번호 | 제목 | 난이도 | 장 | 풀이 코드 | Review🌟 | Memo
+| --- | --- | ---- | - | --- | -- | --
 | 1 | [유효한 팰린드롬](https://leetcode.com/problems/valid-palindrome/) | ★ | 6장. 문자열 조작 | [](PythonAlgorithmInterview/src/NAME) |
 | 2 | [문자열 뒤집기](https://leetcode.com/problems/reverse-string/) | ★ | 6장. 문자열 조작 | [](PythonAlgorithmInterview/src/NAME) |
 | 3 | [로그 파일 재정렬](https://leetcode.com/problems/reorder-data-in-log-files/) | ★ | 6장. 문자열 조작 | [](PythonAlgorithmInterview/src/NAME) |
@@ -34,9 +34,9 @@
 | 25 | [원형 큐 디자인](https://leetcode.com/problems/design-circular-queue/) | ★★ | 9장. 스택, 큐 | [](PythonAlgorithmInterview/src/NAME) |
 | 26 | [원형 데크 디자인](https://leetcode.com/problems/design-circular-deque/) | ★★ | 10장. 데크, 우선 순위 큐 | [](PythonAlgorithmInterview/src/NAME) |🌟
 | 27 | [k개 정렬 리스트 병합](https://leetcode.com/problems/merge-k-sorted-lists/) | ★ | 10장. 데크, 우선 순위 큐 | [](PythonAlgorithmInterview/src/NAME) |🌟
-| 28 | [해시맵 디자인](https://leetcode.com/problems/design-hashmap/) | ★ | 11장. 해시 테이블 | [](PythonAlgorithmInterview/src/NAME) |
-| 29 | [보석과 돌](https://leetcode.com/problems/jewels-and-stones/) | ★ | 11장. 해시 테이블 | [](PythonAlgorithmInterview/src/NAME) |
-| 30 | [중복 문자 없는 가장 긴 부분 문자열](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ★★ | 11장. 해시 테이블 | [](PythonAlgorithmInterview/src/NAME) |
+| 28 | [해시맵 디자인](https://leetcode.com/problems/design-hashmap/) | ★ | 11장. 해시 테이블 | [](PythonAlgorithmInterview/src/NAME) |🌟
+| 29 | [보석과 돌](https://leetcode.com/problems/jewels-and-stones/) | ★ | 11장. 해시 테이블 | [](PythonAlgorithmInterview/src/NAME) |🌟
+| 30 | [중복 문자 없는 가장 긴 부분 문자열](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ★★ | 11장. 해시 테이블 | [](PythonAlgorithmInterview/src/NAME) |🌟🌟🌟 | Two Pointer
 | 31 | [상위 K 빈도 요소](https://leetcode.com/problems/top-k-frequent-elements/) | ★★ | 11장. 해시 테이블 | [](PythonAlgorithmInterview/src/NAME) |
 | 32 | [섬의 개수](https://leetcode.com/problems/number-of-islands/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
 | 33 | [전화 번호 문자 조합](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
