@@ -377,6 +377,7 @@ Counter에서 빈도 수가 높은 순서대로 아이템을 추출하는 기능
                   queue.append(w)
       return discovered
   ```
+#### [Q.32 동서남북 DFS](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.32-Number%20of%20Islands.ipynb)
 
 
 <!--
