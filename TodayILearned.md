@@ -329,7 +329,55 @@ foo = sorted(bar:list, key = lambda x:(some_func))
 
 ### Counter.most_common(k)
 Counter에서 빈도 수가 높은 순서대로 아이템을 추출하는 기능인 most_common()
-### Subtitle
+
+
+## 비선형 자료구조
+### 그래프
+- 해밀턴 경로 : 한 번만 방문하는 경로
+- 해밀턴 순환 : 한 번만 방문하여 출발지로 돌아오는 경로
+- 외판원 문제 : 한 번만 방문하여 출발지로 돌아오는 경로 중 가장 짧은 경로  
+
+### 그래프 순회 (그래프 탐색)
+- DFS (깊이 우선 탐색)  
+  주로 스택, 재귀, 백트래킹으로 구현
+  #### **recursive**
+  ```python
+  def recursive_dfs(v, discovered=[]):
+      discovered.append(v)
+      for w in graph[v]:
+          if not w in discovered:
+              discovered = recursive_dfs(w, discovered)
+      return discovered
+  ```
+  #### **stack**
+  ```python
+    def iterative_dfs(start_v):
+        discovered = []
+        stack = [start_v]
+        while stack:
+            v = stack.pop()
+            if v not in discovered:
+                discovered.append(v)
+                for w in graph[v]:
+                    stack.append(w)
+        return discovered
+  ```
+- BFS (너비 우선 탐색)  
+  큐로 구현, 최단 경로, 다익스트라. *재귀 구현 불가*
+  #### **queue**
+  ```python
+  def iterative_bfs(start_v):
+      discovered = [start_v]
+      queue = [start_v]
+      while queue:
+          v = queue.pop(0)
+          for w in graph[v]:
+              if w not in discovered:
+                  discovered.append(w)
+                  queue.append(w)
+      return discovered
+  ```
+
 
 <!--
 
