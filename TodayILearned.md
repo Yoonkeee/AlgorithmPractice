@@ -379,6 +379,14 @@ Counter에서 빈도 수가 높은 순서대로 아이템을 추출하는 기능
   ```
 #### [Q.32 동서남북 DFS](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.32-Number%20of%20Islands.ipynb)
 
+#### [Q.34 순열 Permutations DFS](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.34-Permutations)
+
+### itertools - permutations, combinations
+```python
+list(map(list, itertools.permutations(nums)))
+list(map(list, itertools.combinations(range(1, n+1), k)))
+```
+
 
 <!--
 

@@ -40,7 +40,7 @@
 | 31 | [상위 K 빈도 요소](https://leetcode.com/problems/top-k-frequent-elements/) | ★★ | 11장. 해시 테이블 | [](PythonAlgorithmInterview/src/NAME) |
 | 32 | [섬의 개수](https://leetcode.com/problems/number-of-islands/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟🌟 | DFS
 | 33 | [전화 번호 문자 조합](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟 | DFS
-| 34 | [순열](https://leetcode.com/problems/permutations/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟🌟🌟 | DFS 순열
+| 34 | [순열](https://leetcode.com/problems/permutations/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟🌟🌟🌟🌟 | DFS 순열
 | 35 | [조합](https://leetcode.com/problems/combinations/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
 | 36 | [조합의 합](https://leetcode.com/problems/combination-sum/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
 | 37 | [부분 집합](https://leetcode.com/problems/subsets/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
