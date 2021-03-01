@@ -45,7 +45,7 @@
 | 36 | [조합의 합](https://leetcode.com/problems/combination-sum/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟🌟🌟 | DFS 더 간단하게 짜보자
 | 37 | [부분 집합](https://leetcode.com/problems/subsets/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
 🌟|DFS
-| 38 | [일정 재구성](https://leetcode.com/problems/reconstruct-itinerary/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
+| 38 | [일정 재구성](https://leetcode.com/problems/reconstruct-itinerary/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |🌟🌟🌟|DFS
 | 39 | [코스 스케줄](https://leetcode.com/problems/course-schedule/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
 | 40 | [네트워크 딜레이 타임](https://leetcode.com/problems/network-delay-time/) | ★★ | 13장. 최단 경로 문제 | [](PythonAlgorithmInterview/src/NAME) |
 | 41 | [K 경유지 내 가장 저렴한 항공권](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | ★★ | 13장. 최단 경로 문제 | [](PythonAlgorithmInterview/src/NAME) |
