@@ -1,4 +1,4 @@
-# **20. 01. 14 ~ 16**
+# **21. 01. 14 ~ 16**
 
 A is B 는 객체의 id(주소)값을 비교하는 것 *(object 비교)*  
 == 는 값을 비교하는 것 *(value equivalent)*  
@@ -80,7 +80,7 @@ counts = collections.Counter(words).most_common(1)
 ```
 
 ---
-# **20. 01. 18 ~ 24**
+# **21. 01. 18 ~ 24**
 
 ### [Tim Sort](https://d2.naver.com/helloworld/0315536)
 Python을 포함한 많은 언어에서 Sorting Algorithm으로 사용하는 정렬 방법.  
@@ -152,7 +152,7 @@ l = [1,2,3,4,5,6,7]
 
 ---
 
-# **20. 01. 25 ~ 31**
+# **21. 01. 25 ~ 31**
 
 ### Linked List in Python
 ```python
@@ -241,7 +241,7 @@ a = [1, 2, 3, 4, 5]
 
 ---
 
-# **20. 02. 01 ~ 7**
+# **21. 02. 01 ~ 7**
 
 ### [Q.19-역순 연결 리스트 2](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.19-Reverse%20Linked%20List%20II.ipynb)  
 제대로 못풀었음. m=1일 경우 스왑 불가능
@@ -259,9 +259,9 @@ None <- 1 <- 2 <- 3 <- 4 <- 5
 
 ---
 
-#### 20. 02. 03 ~ 20. 02. 08 이사
+#### 21. 02. 03 ~ 21. 02. 08 이사
 
-# **20 .02. 09 ~ 14**
+# **21. 02. 09 ~ 14**
 
 ### Deque, Priority Queue
 Priority Que = 다익스트라 알고리즘(최단경로), 힙 구조와 관련  
@@ -296,7 +296,7 @@ while heap:
 ```
 (-num, num)을 활용하여 음수를 취하면 Max Heapq 구조
 
-# **20 .02. 15 ~ 21**
+# **21. 02. 15 ~ 21**
 
 ## 해시
 임의 크기 데이터를 고정 크기 값으로 매핑
@@ -317,7 +317,7 @@ while heap:
 (파이썬의 로드 팩터는 0.66, 자바는 0.75)
 
 
-# **20 .02. 22 ~ 28**
+# **21. 02. 22 ~ 28**
 
 ### [Q.30 투 포인터 문제](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.30-Longest%20Substring%20Without%20Repeating%20Characters.ipynb)
 다시 풀어보자.
@@ -386,11 +386,15 @@ Counter에서 빈도 수가 높은 순서대로 아이템을 추출하는 기능
 list(map(list, itertools.permutations(nums)))
 list(map(list, itertools.combinations(range(1, n+1), k)))
 ```
+# **21. 03. 01 ~ 07**
+
 #### [Q.36 조합의 합 DFS](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.36-Combination%20Sum.ipynb)
+#### [Q.39 코스 스케줄 DFS](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.39-Course%20Schedule.ipynb) - 가지치기로 시간복잡도 최적화
+
 
 <!--
 
-# **20 .02. 00 ~ 00**
+# **21 .02. 00 ~ 00**
 
 ### Subtitle
 

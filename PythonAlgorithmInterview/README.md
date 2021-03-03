@@ -46,7 +46,7 @@
 | 37 | [부분 집합](https://leetcode.com/problems/subsets/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
 🌟|DFS
 | 38 | [일정 재구성](https://leetcode.com/problems/reconstruct-itinerary/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |🌟🌟🌟|DFS
-| 39 | [코스 스케줄](https://leetcode.com/problems/course-schedule/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
+| 39 | [코스 스케줄](https://leetcode.com/problems/course-schedule/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |🌟|DFS
 | 40 | [네트워크 딜레이 타임](https://leetcode.com/problems/network-delay-time/) | ★★ | 13장. 최단 경로 문제 | [](PythonAlgorithmInterview/src/NAME) |
 | 41 | [K 경유지 내 가장 저렴한 항공권](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | ★★ | 13장. 최단 경로 문제 | [](PythonAlgorithmInterview/src/NAME) |
 | 42 | [이진 트리의 최대 깊이](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | ★ | 14장. 트리 | [](PythonAlgorithmInterview/src/NAME) |
