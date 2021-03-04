@@ -391,6 +391,12 @@ list(map(list, itertools.combinations(range(1, n+1), k)))
 #### [Q.36 조합의 합 DFS](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.36-Combination%20Sum.ipynb)
 #### [Q.39 코스 스케줄 DFS](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.39-Course%20Schedule.ipynb) - 가지치기로 시간복잡도 최적화
 
+## 최단 경로 문제  
+- 다익스트라 알고리즘  
+  **BFS(너비 우선 탐색)**  
+  항상 노드 주변의 최단 경로만을 택하는 대표적인 Greedy Algorithm중 하나로, 단순하며 실행 속도 또한 빠르다.  
+
+
 
 <!--
 
