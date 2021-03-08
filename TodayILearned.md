@@ -395,7 +395,17 @@ list(map(list, itertools.combinations(range(1, n+1), k)))
 - 다익스트라 알고리즘  
   **BFS(너비 우선 탐색)**  
   항상 노드 주변의 최단 경로만을 택하는 대표적인 Greedy Algorithm중 하나로, 단순하며 실행 속도 또한 빠르다.  
-  #### [Q.40 네트워크 딜레이 - 다익스트라](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.40-Network%20Delay%20Time.ipynb)
+  #### [Q.40 네트워크 딜레이 - 다익스트라](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.40-Network%20Delay%20Time.ipynb) 기본적인 개념이므로 다시 풀어보기
+```python
+heapq.heappop(list)  # heappop 한번만 해도 heapify됨
+```
+
+# **21. 03. 08 ~ 14**
+
+#### [Q.41 K 경유지](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.41-Cheapest%20Flights%20Within%20K%20Stops.ipynb) - 조건이 조금 다른 다익스트라
+
+
+
 
 
 <!--
