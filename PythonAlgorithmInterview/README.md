@@ -41,14 +41,13 @@
 | 32 | [섬의 개수](https://leetcode.com/problems/number-of-islands/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟🌟 | DFS
 | 33 | [전화 번호 문자 조합](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟 | DFS
 | 34 | [순열](https://leetcode.com/problems/permutations/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟🌟🌟🌟🌟 | DFS 순열
-| 35 | [조합](https://leetcode.com/problems/combinations/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟🌟🌟 | DFS 조합
+| 35 | [조합](https://leetcode.com/problems/combinations/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟🌟🌟🌟🌟 | DFS 조합
 | 36 | [조합의 합](https://leetcode.com/problems/combination-sum/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) | 🌟🌟🌟 | DFS 더 간단하게 짜보자
-| 37 | [부분 집합](https://leetcode.com/problems/subsets/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |
-🌟|DFS
+| 37 | [부분 집합](https://leetcode.com/problems/subsets/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |🌟|DFS
 | 38 | [일정 재구성](https://leetcode.com/problems/reconstruct-itinerary/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |🌟🌟🌟|DFS
 | 39 | [코스 스케줄](https://leetcode.com/problems/course-schedule/) | ★★ | 12장. 그래프 | [](PythonAlgorithmInterview/src/NAME) |🌟|DFS
-| 40 | [네트워크 딜레이 타임](https://leetcode.com/problems/network-delay-time/) | ★★ | 13장. 최단 경로 문제 | [](PythonAlgorithmInterview/src/NAME) |
-| 41 | [K 경유지 내 가장 저렴한 항공권](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | ★★ | 13장. 최단 경로 문제 | [](PythonAlgorithmInterview/src/NAME) |
+| 40 | [네트워크 딜레이 타임](https://leetcode.com/problems/network-delay-time/) | ★★ | 13장. 최단 경로 문제 | [](PythonAlgorithmInterview/src/NAME) |🌟🌟 | 다익스트라
+| 41 | [K 경유지 내 가장 저렴한 항공권](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | ★★ | 13장. 최단 경로 문제 | [](PythonAlgorithmInterview/src/NAME) |🌟🌟 | 다익스트라
 | 42 | [이진 트리의 최대 깊이](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | ★ | 14장. 트리 | [](PythonAlgorithmInterview/src/NAME) |
 | 43 | [이진 트리의 직경](https://leetcode.com/problems/diameter-of-binary-tree/) | ★ | 14장. 트리 | [](PythonAlgorithmInterview/src/NAME) |
 | 44 | [가장 긴 동일 값의 경로](https://leetcode.com/problems/longest-univalue-path/) | ★ | 14장. 트리 | [](PythonAlgorithmInterview/src/NAME) |
