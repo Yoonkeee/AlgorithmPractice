@@ -404,6 +404,32 @@ heapq.heappop(list)  # heappop 한번만 해도 heapify됨
 
 #### [Q.41 K 경유지](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.41-Cheapest%20Flights%20Within%20K%20Stops.ipynb) - 조건이 조금 다른 다익스트라
 
+- #### 순열
+  ```python
+  map(list, itertools.permutations(nums))
+  ```
+
+#### 변수의 범위
+```python
+def test1():
+    v1 = 10
+    print(f'print v1 at test1() : {v1}')  # = 10
+    def test2():
+        nonlocal v1
+        print(f'print v1 at test2() : {v1}')  # = 10
+        v1 = 50
+        print(f'print v1 after reassign v1 = 50 : {v1}')  # = 50
+    test2()
+    print(f'print v1 after test2() : {v1}')  # = 50
+test1()
+```   
+- nonlocal을 선언하지 않고 reassign도 없다면 사용 가능
+- nonlocal을 선언하지 않고 reassign한다면 해당 함수의 지역 변수로 판단하여 **UnboundLocalError: local variable 'v1' referenced before assignment** 에러 생성
+- nonlocal을 선언 후 reassign하면 바깥의 변수 v1에 접근  
+
+#### **global과 nonlocal의 차이를 기억하자.**
+
+## 트리
 
 
 
