@@ -429,6 +429,71 @@ test1()
 
 #### **global과 nonlocal의 차이를 기억하자.**
 
+# **21. 03. 15 ~ 21**
+## [* (Astreisk) 이해하기](https://mingrammer.com/understanding-the-asterisk-of-python/)
+### 가변 인자를 사용할 때
+- #### positional arguments만 받을 때
+```python
+def save_ranking(*args):
+    print(args)
+save_ranking('ming', 'alice', 'tom', 'wilson', 'roy')
+# ('ming', 'alice', 'tom', 'wilson', 'roy')
+```
+- #### keyword arguments만 받을 때
+```python
+def save_ranking(**kwargs):
+    print(kwargs)
+save_ranking(first='ming', second='alice', fourth='wilson', third='tom', fifth='roy')
+# {'first': 'ming', 'second': 'alice', 'fourth': 'wilson', 'third': 'tom', 'fifth': 'roy'}
+```
+- #### positional arguments와 keyword arguments를 모두 받을 때
+```py
+def save_ranking(*args, **kwargs):
+    print(args)
+    print(kwargs)
+save_ranking('ming', 'alice', 'tom', fourth='wilson', fifth='roy')
+# ('ming', 'alice', 'tom')
+# {'fourth': 'wilson', 'fifth': 'roy'}
+```
+### 컨테이너 타입의 데이터를 Unpacking 할 때
+```py
+from functools import reduce
+
+primes = [2, 3, 5, 7, 11, 13]
+
+def product(*numbers):
+    p = reduce(lambda x, y: x * y, numbers)
+    return p
+
+product(*primes)
+# 30030
+
+product(primes)
+# [2, 3, 5, 7, 11, 13]
+```
+- 함수의 인자로써 사용하는게 아닌 리스트나 튜플 데이터를 다른 변수에 가변적으로 unpacking 하여 사용하는 형태
+```py
+numbers = [1, 2, 3, 4, 5, 6]
+
+# unpacking의 좌변은 리스트 또는 튜플의 형태를 가져야하므로 단일 unpacking의 경우 *a가 아닌 *a,를 사용
+*a, = numbers
+# a = [1, 2, 3, 4, 5, 6]
+
+*a, b = numbers
+# a = [1, 2, 3, 4, 5]
+# b = 6
+
+a, *b, = numbers
+# a = 1
+# b = [2, 3, 4, 5, 6]
+
+a, *b, c = numbers
+# a = 1
+# b = [2, 3, 4, 5]
+# c = 6
+```
+
+
 ## 트리
 
 
