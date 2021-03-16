@@ -493,6 +493,16 @@ a, *b, c = numbers
 # c = 6
 ```
 
+## 2차원 list를 1차원 list로 변형
+```py
+my_list = [[1, 3, 4, 5],
+           [6, 2, 9, 9],
+           [4, 3,10, 5],
+           [5, 2, 8, 6]]
+           
+[foo for bar in my_list for foo in bar]
+```
+
 
 ## 트리
 
