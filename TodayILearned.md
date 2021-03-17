@@ -499,10 +499,17 @@ my_list = [[1, 3, 4, 5],
            [6, 2, 9, 9],
            [4, 3,10, 5],
            [5, 2, 8, 6]]
-           
-[foo for bar in my_list for foo in bar]
+
+my_list = [foo for bar in my_list for foo in bar]
 ```
 
+## 2차원 list에서 좌/우측 선택
+```py
+width = len(my_list)
+my_list = [foo for bar in my_list for foo in bar]
+left_list = [x for i,x in enumerate(my_list) if i%width < width//2]
+right_list = [x for i,x in enumerate(my_list) if i%width >= width//2]
+```
 
 ## 트리
 
