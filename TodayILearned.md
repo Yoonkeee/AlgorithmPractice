@@ -430,6 +430,8 @@ test1()
 #### **global과 nonlocal의 차이를 기억하자.**
 
 # **21. 03. 15 ~ 21**
+
+
 ## [* (Astreisk) 이해하기](https://mingrammer.com/understanding-the-asterisk-of-python/)
 ### 가변 인자를 사용할 때
 - #### positional arguments만 받을 때
@@ -511,8 +513,14 @@ left_list = [x for i,x in enumerate(my_list) if i%width < width//2]
 right_list = [x for i,x in enumerate(my_list) if i%width >= width//2]
 ```
 
-## 트리
+# **21. 03. 22 ~ 28**
 
+## 트리
+- 트리란 순환 구조를 갖지 않는 그래프이다.  
+- 부모 노드는 단 하나여야 한다.
+- 루트는 하나여야 한다.
+
+[Q.43 이진 트리 직경](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.43-Diameter%20of%20Binary%20Tree.ipynb)
 
 
 
