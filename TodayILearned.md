@@ -532,7 +532,26 @@ right_list = [x for i,x in enumerate(my_list) if i%width >= width//2]
 
 # **21 .04. 04 ~ 10**
 
-### Subtitle
+### [Database Application Project](https://github.com/Yoonkeee/2021SS_DatabaseApplication)
+
+
+# **21 .04. 11 ~ 17**
+
+### [Database Application Project](https://github.com/Yoonkeee/2021SS_DatabaseApplication)
+
+## Class inspect
+
+### [inspect.getargvalues(frame)](https://docs.python.org/3/library/inspect.html#inspect.getargvalues)
+Get information about arguments passed into a particular frame.  
+A named tuple ArgInfo(args, varargs, keywords, locals) is returned.  
+args is a list of the argument names.  
+varargs and keywords are the names of the * and ** arguments or None.  
+locals is the locals dictionary of the given frame.  
+
+Example  
+```py
+function_input_params = inspect.getargvalues(inspect.currentframe())[3]
+```
 
 
 <!--
