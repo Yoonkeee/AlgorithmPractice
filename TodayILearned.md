@@ -562,7 +562,8 @@ function_input_params = inspect.getargvalues(inspect.currentframe())[3]
 
 ### [Database Application Project](https://github.com/Yoonkeee/2021SS_DatabaseApplication)  
 
-[Depth of Tree 계산 (Q.49)](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.48-Balanced%20Binary%20Tree.ipynb)
+[Q.49 최소 높이 트리](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.48-Balanced%20Binary%20Tree.ipynb) - Depth of Tree 계산  
+
 
 <!--
 
