@@ -564,10 +564,15 @@ function_input_params = inspect.getargvalues(inspect.currentframe())[3]
 
 [Q.49 최소 높이 트리](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.48-Balanced%20Binary%20Tree.ipynb) - Depth of Tree 계산  
 
+# **21 .05. 2 ~ 08**
+
+[Q.51 이진 탐색 트리를 더 큰 수 합계 트리로](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.51-Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.ipynb) - Tree 순회  
+
+[Q.52 이진 탐색 트리(BST) 합의 범위](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.52-Range%20Sum%20of%20BST.ipynb) - Tree 조건부 순회(DFS, BFS)
 
 <!--
 
-# **21 .04. 00 ~ 00**
+# **21 .05. 00 ~ 00**
 
 ### Subtitle
 
