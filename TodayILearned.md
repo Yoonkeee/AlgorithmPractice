@@ -570,6 +570,11 @@ function_input_params = inspect.getargvalues(inspect.currentframe())[3]
 
 [Q.52 이진 탐색 트리(BST) 합의 범위](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.52-Range%20Sum%20of%20BST.ipynb) - Tree 조건부 순회(DFS, BFS)
 
+```python
+sys.maxsize, -sys.maxsize  # int형 최대 크기
+# float('inf'), float('-inf')가 더 큼
+```
+
 <!--
 
 # **21 .05. 00 ~ 00**
