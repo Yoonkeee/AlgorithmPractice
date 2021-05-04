@@ -574,6 +574,42 @@ function_input_params = inspect.getargvalues(inspect.currentframe())[3]
 sys.maxsize, -sys.maxsize  # int형 최대 크기
 # float('inf'), float('-inf')가 더 큼
 ```
+## 트리 순회
+
+- ### 전위 순회의 재귀 구현
+```py
+def preorder(node):
+  if node is None:
+    return
+  print(node.val)
+  preorder(node.left)
+  preorder(node.right)
+```   
+- ### 중위 순회의 재귀 구현
+```py
+def inorder(node):
+  if node is None:
+    return
+  inorder(node.left)
+  print(node.val)
+  inorder(node.right)
+```
+- ### 전위 순회의 재귀 구현
+```py
+def postorder(node):
+  if node is None:
+    return
+  postorder(node.left)
+  postorder(node.right)
+  print(node.val)
+```
+
+[Q.54 전위, 중위 순회로 이진 트리 구축](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.54-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.ipynb) - 2가지의 트리 순회 결과로 이진트리 구축하기. 개념 이해가 어려웠음.  
+
+
+
+
+
 
 <!--
 
