@@ -606,8 +606,10 @@ def postorder(node):
 
 [Q.54 전위, 중위 순회로 이진 트리 구축](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.54-Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.ipynb) - 2가지의 트리 순회 결과로 이진트리 구축하기. 개념 이해가 어려웠음.  
 
-
-
+## 힙 (Heap)
+- 0번째 인덱스는 사용하지 않는 것이 국룰  
+- 다익스트라 알고리즘에 사용하여 O(V^2) -> O(E log V)로 줄어듬  
+- 추출시 다시 힙의 특성을 유지하도록 스와핑이 일어나기 때문에 O(log n)  
 
 
 
