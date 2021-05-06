@@ -624,6 +624,28 @@ heapq.nsmallest(k, nums)  # [1,2,3]
 - 검색 트리의 일종으로 일반적으로 키가 문자열인, 동적 배열 또는 연관 배열을 저장하는 데 사용되는 정렬된 트리 자료구조  
 - 트리의 이진 트리의 모습이 아닌 다진 트리의 형태  
 
+## **우선순위 스케쥴링 알고리즘**  
+
+[Q.79 키에 따른 대기열 재구성](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.79-Queue%20Reconstruction%20by%20Height.ipynb) - 우선순위 큐를 사용한 기본적인 정렬  
+
+[Q.80 태스크 스케줄러](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.80-Task%20Scheduler.ipynb) - Counter를 Max Heap처럼 사용  
+
+### collections.Counter()
+```py
+counter = collectnios.Counter(tasks)
+# most_common(n) : 가장 많은 아이템부터 n회 추출, 사실상 Max Heap과 같은 역할
+for task, _ in counter.most_common(n+1):  
+  counter.subtrack(task)  # heappop()처럼 사용된 task의 couter를 -1해줌
+  counter += collections.Counter()  # count가 0 이하인 아이템을 삭제
+```
+
+[Q.81 주유소](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.81-Gas%20Station.ipynb) - 회전 방문, 출발지 결정 (책 풀이 - 2번 참고)  
+
+[Q.82 쿠키 부여](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.82-Assign%20Cookies.ipynb) - bisect 이진 검색?
+
+
+
+
 <!--
 
 # **21 .05. 00 ~ 00**
