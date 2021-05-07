@@ -643,6 +643,15 @@ for task, _ in counter.most_common(n+1):
 
 [Q.82 쿠키 부여](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.82-Assign%20Cookies.ipynb) - bisect 이진 검색?
 
+eval(expression) : 문자열을 파싱하여 표현식으로 처리해주는(Evaluate) 역할 수행  
+
+```py
+exp = '4+5'
+eval(exp)  # 9
+```
+
+[Q.84 괄호를 삽입하는 여러 가지 방법](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.84-Different%20Ways%20to%20Add%20Parentheses.ipynb) - 분할 정복 기초  
+
 
 
 
