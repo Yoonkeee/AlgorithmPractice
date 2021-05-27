@@ -659,9 +659,9 @@ eval(exp)  # 9
 ### [Q.57 팰린드롬 페어](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.57-Palindrome%20Pairs.ipynb) - Trie 구조로 팰린드롬 판별 난이도 🌟🌟🌟  
 
 
-# **21 .05. 16 ~ 21**
+# **21 .05. 22 ~ 28**
 
-### 
+### [Q.60 삽입 정렬 리스트](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.60-Insertion%20Sort%20List.ipynb) - 연결 리스트로 삽입 정렬, 연결 리스트를 끊어지지 않게 다루는 방법
 
 
 <!--
