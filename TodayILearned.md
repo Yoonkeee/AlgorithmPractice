@@ -663,6 +663,14 @@ eval(exp)  # 9
 
 ### [Q.60 삽입 정렬 리스트](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.60-Insertion%20Sort%20List.ipynb) - 연결 리스트로 삽입 정렬, 연결 리스트를 끊어지지 않게 다루는 방법
 
+### 이진 검색 모듈
+```py
+list.index(target)
+bisect.bisect_left(list, target)
+```
+index 모듈은 O(n)이나 bisect_left 모듈은 O(log n)이다.  
+list의 사이즈나 target의 예상 위치에 따라 적절히 사용하도록 하자.  
+
 
 <!--
 
