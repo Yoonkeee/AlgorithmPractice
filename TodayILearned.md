@@ -663,13 +663,19 @@ eval(exp)  # 9
 
 ### [Q.60 삽입 정렬 리스트](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.60-Insertion%20Sort%20List.ipynb) - 연결 리스트로 삽입 정렬, 연결 리스트를 끊어지지 않게 다루는 방법
 
-### 이진 검색 모듈
+### 이진 검색 모듈  
 ```py
 list.index(target)
 bisect.bisect_left(list, target)
 ```
 index 모듈은 O(n)이나 bisect_left 모듈은 O(log n)이다.  
 list의 사이즈나 target의 예상 위치에 따라 적절히 사용하도록 하자.  
+
+### 이진 검색 버그  
+- mid = (left + right) // 2 로 할 경우 left + right가 자료형의 최댓값을 넘어선다면 버그 발생  
+- mid = left + (right - left) // 2 로 사용  
+
+### [Q.66 회전 정렬된 배열 검색](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.66-Search%20in%20Rotated%20Sorted%20Array.ipynb) - 회전 정렬된 배열에서 이진 검색 수행하기. 개념이 너무 어렵다.  
 
 
 <!--
