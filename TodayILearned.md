@@ -659,7 +659,7 @@ eval(exp)  # 9
 ### [Q.57 팰린드롬 페어](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.57-Palindrome%20Pairs.ipynb) - Trie 구조로 팰린드롬 판별 난이도 🌟🌟🌟  
 
 
-# **21 .05. 22 ~ 28**
+# **21 .05. 23 ~ 29**
 
 ### [Q.60 삽입 정렬 리스트](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.60-Insertion%20Sort%20List.ipynb) - 연결 리스트로 삽입 정렬, 연결 리스트를 끊어지지 않게 다루는 방법
 
@@ -678,9 +678,19 @@ list의 사이즈나 target의 예상 위치에 따라 적절히 사용하도록
 ### [Q.66 회전 정렬된 배열 검색](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.66-Search%20in%20Rotated%20Sorted%20Array.ipynb) - 회전 정렬된 배열에서 이진 검색 수행하기. 개념이 너무 어렵다.  
 
 
+
+# **21 .05. 30 ~ 06. 05**
+
+### any(), all()
+```py
+any([True, False, False])  # = True, or와 같은 논리
+all([True, True, False])  # = False, and와 같은 논리
+```
+
+
 <!--
 
-# **21 .05. 00 ~ 00**
+# **21 .06. 00 ~ 00**
 
 ### Subtitle
 
