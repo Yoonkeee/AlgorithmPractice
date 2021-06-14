@@ -687,6 +687,39 @@ any([True, False, False])  # = True, or와 같은 논리
 all([True, True, False])  # = False, and와 같은 논리
 ```
 
+# **21 .06. 13 ~ 19**
+
+### 비트 연산  
+```py
+bin(0b0100 + 0b0010)  # '0b1000'
+bin(0b0011 * 0b0101)  # '0b1111'
+bin(0b1101 >> 2)  # '0b11'
+bin(0b1101 << 2)  # '0b110100'
+bin(0b0101 ^ ~0b1100)  # '-0b1010' = Not Expected
+```
+```py
+bin(~0b1100)  # '-0b1010'
+MASK = 0b1111
+bin(0b1100 ^ MASK)  # '0b11' = Expected
+bin(0b0101 ^ bin(0b1100 ^ MASK))  # '0b110' = Expected
+```
+
+### 진수 변환
+```py
+bin(87)  # '0b1010111'
+int('0b1010111', 2)  # 87
+hex(87)  # '0x57'
+int('0x57', 16)  # 87
+```  
+  
+[Q.70 비트 연산으로 중복 수 제거하기](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.70-Single%20Number.ipynb)  
+
+
+
+# **21 .06. 20 ~ 26**
+
+### 
+
 
 <!--
 
