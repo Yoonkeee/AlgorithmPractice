@@ -714,6 +714,18 @@ int('0x57', 16)  # 87
   
 [Q.70 비트 연산으로 중복 수 제거하기](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.70-Single%20Number.ipynb)  
 
+### 투 포인터, 슬라이딩 윈도우  
+
+
+이름|정렬 여부|윈도우 사이즈|이동  
+--|--|--|--  
+투 포인터|대부분 O|가변|좌우 포인터 양방향  
+슬라이딩 윈도우|X|고정|좌 또는 우 단방향  
+
+[Q.75 최대 슬라이딩 윈도우](https://github.com/Yoonkeee/AlgorithmPractice/blob/master/PythonAlgorithmInterview/src/Q.75-Sliding%20Window%20Maximum.ipynb) - 슬라이딩 윈도우와 Deque 조합  
+
+
+
 
 
 # **21 .06. 20 ~ 26**
